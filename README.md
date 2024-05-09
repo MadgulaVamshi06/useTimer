@@ -1,8 +1,13 @@
-# React + Vite
+The application offers basic timer functionality allowing users to start, stop, and reset the timer.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Timer logic is implemented using React Hooks (useState and useEffect) within the useTimer custom hook, promoting code reusability.
 
-Currently, two official plugins are available:
+Timer value is displayed in seconds, updating every second to reflect elapsed time.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Users can interact with the timer using intuitive buttons.
+
+Start Timer: Initiates timer countdown.
+
+Stop Timer: Pauses the timer.
+
+Reset Timer: Sets the timer back to zero and stops it.
